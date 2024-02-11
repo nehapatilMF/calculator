@@ -57,6 +57,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+    @SuppressLint("SuspiciousIndentation")
     fun onEqual(View: View){
         if(lastNumeric){
            var tvValue=tvInput?.text.toString()
